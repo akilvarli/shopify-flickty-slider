@@ -1,0 +1,8 @@
+{
+  "parent": "footer-group.json",
+  "context": {
+    "market": "birlesik-arap-emirlikleri"
+  },
+  "sections": {
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "padding_top": 24,
+        "padding_bottom": 0
+      }
+    },
+    "17197422381c2d30a0": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "17197422381c2d30a0"
+  ]
+}

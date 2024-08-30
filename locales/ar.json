@@ -1,0 +1,205 @@
+{
+  "shopify": {
+    "checkout": {
+      "payment": {
+        "amazon_payments_label": "Amazon Pay",
+        "masked_digits_label": "•••• {{ last_digits }}",
+        "paypal_label": "PayPal",
+        "klarna_label": "ادفع لاحقا",
+        "bancontact_label": "منع الاتصال",
+        "giropay_label": "Giropay",
+        "multibanco_label": "Multibanco",
+        "eps_label": "eps-Überweisung\n",
+        "ideal_label": "iDEAL"
+      },
+      "change_currency": {
+        "currency_button_label": "{{ currency }} ({{ currency_symbol }})\n",
+        "conversion_rate": "1 {{ from_currency_code }} = {{ rate }} {{ to_currency_code }}\n"
+      },
+      "general": {
+        "display_name": "{{firstName}} {{lastName}}",
+        "dates": {
+          "weekdays_abbreviation": {
+            "saturday": "Sa"
+          }
+        },
+        "list_formatter": {
+          "and": {
+            "wordConnector": "{{previousWords}} ، {{anotherWord}}"
+          },
+          "or": {
+            "wordConnector": "{{previousWords}} ، {{anotherWord}}"
+          },
+          "narrow": {
+            "wordConnector": "{{previousWords}} ، {{anotherWord}}",
+            "lastWordConnector": "{{previousWords}} ، {{lastWord}}",
+            "twoWordConnector": "{{firstWord}} ، {{secondWord}}"
+          }
+        }
+      },
+      "contact": {
+        "company_contact_info": "{{companyName}} · {{contact}}"
+      },
+      "order_summary": {
+        "gift_card_masked": "••••% {last_characters}"
+      },
+      "shipping": {
+        "shipping_method_combinations": {
+          "without_separator": "% {firstMethod} ،% {secondMethod}",
+          "with_separator": "% {rest}،% {current}،"
+        }
+      },
+      "marketplaces": {
+        "legal_notice": {
+          "separator": " "
+        }
+      }
+    }
+  },
+  "customer_accounts": {
+    "navigation_and_structure": {
+      "generic_accessibility_label": "{{label}}: {{value}}"
+    },
+    "orders": {
+      "order_list": {
+        "order_status_and_message": "{{orderStatus}} - {{message}}",
+        "plus_more": "+ {{numberOfAdditionalProducts}}",
+        "order_status_message": {
+          "table_view": {
+            "last_updated": "{{date}}"
+          }
+        }
+      }
+    },
+    "order_details": {
+      "no_data_provided": "-",
+      "paid_with_shop_pay_installments_card": {
+        "paid_with_shop_pay_installments": "متجر دفع الأقساط ile ödendi"
+      }
+    },
+    "B2B": {
+      "location_selection": {
+        "list_item_accessibility_label": "{{name}}: {{address}}"
+      },
+      "orders": {
+        "draft_order_list": {
+          "pending_orders_count_more_than_pagination_length": "{{count}} +"
+        }
+      }
+    },
+    "payment_methods": {
+      "payment_details": {
+        "credit_card_details": "{{creditCardBrand}} •••• {{lastDigits}}"
+      }
+    },
+    "payment_method_brands": {
+      "visa": "تأشيرة",
+      "mastercard": "ماستركارد",
+      "americanexpress": "أمريكان إكسبريس",
+      "discover": "اكتشف",
+      "dinersclub": "داينرز كلوب",
+      "jcb": "JCB",
+      "elo": "Elo",
+      "visaelectron": "فيزا إلكترون",
+      "maestro": "المايسترو",
+      "forbrugsforeningen": "Forbrugsforeningen",
+      "dankort": "Dankort",
+      "hipercard": "هيبركارد",
+      "unionpay": "UnionPay",
+      "laser": "الليزر",
+      "shoppay": "متجر الدفع",
+      "applepay": "أبل باي",
+      "googlepay": "Google Pay",
+      "paypal": "PayPal"
+    },
+    "ui_components": {
+      "saturdayAbbreviation": "سا"
+    }
+  },
+  "sections": {
+    "slideshow": {
+      "carousel": "Carousel"
+    },
+    "announcements": {
+      "carousel": "دائري"
+    }
+  },
+  "general": {
+    "social": {
+      "links": {
+        "twitter": "تويتر",
+        "facebook": "موقع التواصل الاجتماعي الفيسبوك",
+        "pinterest": "بينتيريست",
+        "instagram": "انستغرام",
+        "tumblr": "نعرفكم",
+        "snapchat": "سناب شات",
+        "youtube": "موقع YouTube",
+        "vimeo": "فيميو",
+        "tiktok": "تيك توك"
+      }
+    }
+  },
+  "templates": {
+    "404": {
+      "subtext": "404"
+    }
+  },
+  "customer": {
+    "order": {
+      "sku": "SKU"
+    }
+  },
+  "products": {
+    "product": {
+      "volume_pricing": {
+        "minimum": "{{ quantity }} +",
+        "price_range": "{{ minimum }} - {{ maximum }}"
+      }
+    }
+  },
+  "pagefly": {
+    "products": {
+      "product": {
+        "regular_price": "Regular price",
+        "sold_out": "Sold out",
+        "unavailable": "Unavailable",
+        "on_sale": "Sale",
+        "quantity": "Quantity",
+        "add_to_cart": "Add to cart",
+        "back_to_collection": "Back to {{ title }}",
+        "view_details": "View details"
+      }
+    },
+    "article": {
+      "tags": "Tags:",
+      "all_topics": "All topics",
+      "by_author": "by {{ author }}",
+      "posted_in": "Posted in",
+      "read_more": "Read more",
+      "back_to_blog": "Back to {{ title }}"
+    },
+    "comments": {
+      "title": "Leave a comment",
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "post": "Post comment",
+      "moderated": "Please note, comments must be approved before they are published",
+      "success_moderated": "Your comment was posted successfully. We will publish it in a little while, as our blog is moderated.",
+      "success": "Your comment was posted successfully! Thank you!",
+      "comments_with_count": {
+        "one": "{{ count }} comment",
+        "other": "{{ count }} comments"
+      }
+    },
+    "password_page": {
+      "login_form_message": "Enter store using password:",
+      "login_form_password_label": "Password",
+      "login_form_password_placeholder": "Your password",
+      "login_form_submit": "Enter",
+      "signup_form_email_label": "Email",
+      "signup_form_success": "We will send you an email right before we open!",
+      "password_link": "Enter using password"
+    }
+  }
+}

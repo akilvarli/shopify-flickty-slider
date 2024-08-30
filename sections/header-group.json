@@ -1,0 +1,84 @@
+{
+  "name": "t:sections.header.name",
+  "type": "header",
+  "sections": {
+    "header": {
+      "type": "header",
+      "blocks": {
+        "menu_kJGNRA": {
+          "type": "menu",
+          "disabled": true,
+          "settings": {
+            "title": "Lüks Kadın Koleksiyonu",
+            "linklist": "luks-kadin-koleksiyonu",
+            "caption_1": "",
+            "link_1": "",
+            "caption_2": "",
+            "link_2": "",
+            "caption_3": "",
+            "link_3": "",
+            "caption_4": "",
+            "link_4": ""
+          }
+        },
+        "menu_F3TLNU": {
+          "type": "menu",
+          "disabled": true,
+          "settings": {
+            "title": "Lüks Erkek Koleksiyonu",
+            "linklist": "luks-erkek-koleksiyonu",
+            "caption_1": "",
+            "link_1": "",
+            "caption_2": "",
+            "link_2": "",
+            "caption_3": "",
+            "link_3": "",
+            "caption_4": "",
+            "link_4": ""
+          }
+        }
+      },
+      "block_order": [
+        "menu_kJGNRA",
+        "menu_F3TLNU"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "logo_position": "middle-left",
+        "menu": "main-menu",
+        "menu_type_desktop": "mega",
+        "mega_menu_images_toggle": "metafield",
+        "mega_menu_images_title": false,
+        "megamenu_backdrop_toggle": true,
+        "dropdown_menu_images_toggle": "metafield",
+        "menu_dropdown_width": 25,
+        "drawer_menu_images_toggle": "metafield",
+        "menu_images_size": 60,
+        "menu_images_border_toggle": false,
+        "menu_images_border_color": "#eaeaea",
+        "sticky_header_type": "on-scroll-up",
+        "show_line_separator": true,
+        "color_scheme": "accent-1",
+        "menu_color_scheme": "background-1",
+        "enable_country_selector": false,
+        "enable_language_selector": false,
+        "mobile_logo_position": "center",
+        "margin_bottom": 0,
+        "padding_top": 12,
+        "padding_bottom": 12
+      }
+    },
+    "1718929081d3b568ca": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "header",
+    "1718929081d3b568ca"
+  ]
+}

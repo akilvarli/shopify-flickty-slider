@@ -1,0 +1,22 @@
+{
+  "parent": "product.json",
+  "context": {
+    "market": "tr"
+  },
+  "sections": {
+    "related-products": {
+      "settings": {
+        "heading": "Şunlar da hoşunuza gidebilir"
+      }
+    },
+    "main": {
+      "blocks": {
+        "share": {
+          "settings": {
+            "share_label": "Paylaş"
+          }
+        }
+      }
+    }
+  }
+}

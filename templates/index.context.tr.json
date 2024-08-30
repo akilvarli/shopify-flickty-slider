@@ -1,0 +1,49 @@
+{
+  "parent": "index.json",
+  "context": {
+    "market": "tr"
+  },
+  "sections": {
+    "featured_collection": {
+      "settings": {
+        "title": "Öne Çıkan Ürünler",
+        "collection": "one-cikan-urunler"
+      },
+      "blocks": {
+      }
+    },
+    "07819516-1e13-4c1b-9076-8e83e5f2f481": {
+      "settings": {
+        "collection": "summer-collection"
+      },
+      "blocks": {
+      }
+    },
+    "17197385253740132b": {
+      "settings": {
+      },
+      "blocks": {
+        "judge_me_reviews_featured_carousel_3M3Bk": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/featured_carousel\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "disabled": false,
+          "settings": {
+            "paragraph-c19b48f682815f9afccddc66329383bd": null,
+            "maxwidth": 1080,
+            "paragraph-f6e948d3011460e209cd9ca70e1a6ea5": null
+          }
+        }
+      },
+      "block_order": [
+        "avada_trust_badges_upsell_app_badge_v2_block_MntVXN",
+        "avada_trust_badges_upsell_app_badge_v2_block_TVPjfe",
+        "judge_me_reviews_featured_carousel_3M3Bk"
+      ]
+    }
+  },
+  "order": [
+    "image_banner",
+    "featured_collection",
+    "07819516-1e13-4c1b-9076-8e83e5f2f481",
+    "17197385253740132b"
+  ]
+}

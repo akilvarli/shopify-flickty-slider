@@ -1,0 +1,11 @@
+{
+  "parent": "page.json",
+  "context": {
+    "market": "tr"
+  },
+  "sections": {
+  },
+  "order": [
+    "main"
+  ]
+}

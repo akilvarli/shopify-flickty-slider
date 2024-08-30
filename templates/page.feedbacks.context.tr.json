@@ -1,0 +1,15 @@
+{
+  "parent": "page.feedbacks.json",
+  "context": {
+    "market": "tr"
+  },
+  "sections": {
+    "featured_blog_bmWkez": {
+      "settings": {
+        "blog": "news-feedback"
+      },
+      "blocks": {
+      }
+    }
+  }
+}

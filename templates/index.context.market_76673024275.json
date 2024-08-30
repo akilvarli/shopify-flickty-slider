@@ -1,0 +1,15 @@
+{
+  "parent": "index.json",
+  "context": {
+    "market": "i̇ngiltere"
+  },
+  "sections": {
+    "featured_collection": {
+      "settings": {
+        "collection": "one-cikan-urunler"
+      },
+      "blocks": {
+      }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "parent": "footer-group.json",
+  "context": {
+    "market": "tr"
+  },
+  "sections": {
+    "17197399025949c6c9": {
+      "type": "apps",
+      "disabled": false,
+      "settings": {
+        "include_margins": true
+      },
+      "blocks": {
+      },
+      "block_order": [
+
+      ]
+    },
+    "footer": {
+      "disabled": false,
+      "custom_css": [
+
+      ],
+      "settings": {
+      },
+      "blocks": {
+      },
+      "block_order": [
+
+      ]
+    }
+  },
+  "order": [
+    "17197399025949c6c9",
+    "footer"
+  ]
+}
